@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onbackPressed(){
+    public void onBackPressed(){
         if(intent !=null){
             Toast toast = Toast.makeText(this,"You cannot return to the previous page.",Toast.LENGTH_SHORT);
             toast.show();
